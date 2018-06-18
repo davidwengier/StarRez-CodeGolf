@@ -1,0 +1,1 @@
+class P{static void Main(string[]a){string p="#"+"#\n".PadLeft(a[0].Length+4),r=p.Replace(' ','#');System.Console.Write(r+p+$"# {a[0]} #\n"+p+r);}}

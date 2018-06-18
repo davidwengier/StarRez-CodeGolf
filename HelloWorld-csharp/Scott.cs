@@ -1,0 +1,1 @@
+class P{static void Main(string[]a){for(int j=-1,l=a[0].Length+5;j+1<l*5;)System.Console.Write($"# {a[0]} #\n"[j++%l+3<l&j/l!=2?j/l&1:j%l]);}}
